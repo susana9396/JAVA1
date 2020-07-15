@@ -1,3 +1,5 @@
+//Integrantes Marcela Rodriguez, Nicol del Rio, Jorge Gajardo , Francisco Parra, Susana Lefimil
+
 public class BasicJavaTest {
     public static void main(String[] args) {
         BasicJava res = new BasicJava();

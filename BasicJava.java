@@ -1,3 +1,4 @@
+//Integrantes Marcela Rodriguez, Nicol del Rio, Jorge Gajardo , Francisco Parra, Susana Lefimil
 import java.util.ArrayList;
 
 public class BasicJava {
