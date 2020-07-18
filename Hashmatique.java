@@ -9,22 +9,20 @@ public class Hashmatique {
         listSong.put("Sweet_Dreams_TN", "The Last Shadow Puppets, Alex Turner, I just sort of always feel sick without you baby");
         
         System.out.printf("\n");
-        System.out.printf("--------------------Letra Knight of Cydonia---------------");
-        System.out.printf("\n");
+        System.out.printf("--------------------Letra Knight of Cydonia--------------- \n");
         String user = listSong.get("knight_of_cydonia");
         String [] datos = user.split(", ");
-        System.out.println("Letra : " + datos[2]);
+        System.out.println("\n Letra : " + datos[2]);
        
-        System.out.printf("\n");
-        System.out.printf("--------------------Listado de canciones---------------");
+       
+        System.out.printf("\n --------------------Listado de canciones---------------\n \n");
         // get the keys by using the keySet method
-        System.out.printf("\n");
         Set<String> keys = listSong.keySet();
         for(String key : keys) {
-            System.out.println(key);
-            System.out.println(listSong.get(key));
-            System.out.printf("\n");    
-             
+           // System.out.println(key);
+           // System.out.println(listSong.get(key));
+            System.out.printf("%s : %s \n", key, listSong.get(key));    
+            System.out.printf("\n");
         }
     }
 }
