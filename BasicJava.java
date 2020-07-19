@@ -24,7 +24,7 @@ public class BasicJava {
         System.out.printf("\n \n");
         for(int i = 0; i < 256; i++){
             sum += i;
-            System.out.printf("Nuevo numero: %d Suma: %d \n ", i, sum);  // ejercicio 3
+            System.out.printf("Nuevo numero: Suma: %d \n ", i, sum);  // ejercicio 3
         }
     } 
 
@@ -132,7 +132,7 @@ public class BasicJava {
             if(max < myArray[i]){
                 max = myArray[i];
             }
-            else {
+            else if (min > myArray[i])    {
                 min = myArray[i];
             }
         }
@@ -160,7 +160,7 @@ public class BasicJava {
             else if(i == arr.length -1){
                 unoadelante.add(0);
             }
-
+            
         }
 
         System.out.println(unoadelante);  // ejercicio 12
